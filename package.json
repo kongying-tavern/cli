@@ -8,9 +8,11 @@
   "license": "MIT",
   "scripts": {
     "commit": "cz",
-    "lint": "eslint --ext=.js,.ts ./src"
+    "lint": "eslint --ext=.js,.ts ./src",
+    "build": "tsc"
   },
   "devDependencies": {
+    "@types/yargs": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "commitizen": "^4.2.4",
@@ -21,5 +23,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "typescript": "^4.7.3",
+    "yargs": "^17.5.1"
   }
 }
