@@ -6,6 +6,9 @@
   "repository": "git@github.com:kongying-tavern/cli.git",
   "author": "Alex Fang <deeno@qq.com>",
   "license": "MIT",
+  "bin": {
+    "ky": "dist/index.js"
+  },
   "scripts": {
     "commit": "cz",
     "lint": "eslint --ext=.js,.ts ./src",
