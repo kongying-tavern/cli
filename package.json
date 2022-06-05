@@ -2,7 +2,7 @@
   "name": "@kongying-tavern/cli",
   "version": "0.0.0",
   "description": "A pluggable CLI for Kongying Tavern.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": "git@github.com:kongying-tavern/cli.git",
   "author": "Alex Fang <deeno@qq.com>",
   "license": "MIT",
