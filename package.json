@@ -15,6 +15,7 @@
     "build": "tsc",
     "release": "semantic-release"
   },
+  "private": false,
   "devDependencies": {
     "@types/yargs": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
