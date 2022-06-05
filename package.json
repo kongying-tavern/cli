@@ -20,7 +20,8 @@
     "@typescript-eslint/parser": "^5.27.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "^8.17.0"
+    "eslint": "^8.17.0",
+    "semantic-release": "^19.0.2"
   },
   "config": {
     "commitizen": {
@@ -30,5 +31,16 @@
   "dependencies": {
     "typescript": "^4.7.3",
     "yargs": "^17.5.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github",
+      ["@semantic-release/npm"]
+    ]
   }
 }
