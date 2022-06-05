@@ -12,7 +12,8 @@
   "scripts": {
     "commit": "cz",
     "lint": "eslint --ext=.js,.ts ./src",
-    "build": "tsc"
+    "build": "tsc",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@types/yargs": "^17.0.10",
